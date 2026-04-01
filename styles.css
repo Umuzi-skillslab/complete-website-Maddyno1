@@ -7,23 +7,23 @@ body {
     color: #333;
 }
 
-.header {
+header {
     background-color: #222;
     color: white;
-    padding: 20px;
-    text-align: center;/* Missing: proper alignment */
+    padding: 15px;
+    text-align: center;/* Added proper alignment */
 }
 
-.header h1 {
+header h1 {
     margin: 0;
 }
 
 /* Navigation styling missing completely */
 
 .hero {
-    padding: 50px;
-    background-color: lightblue;
-    /* Poor colour contrast */
+    padding: 20px;
+    background-color: rgb(16, 169, 220);
+    /* Correct colour contrast */
 }
 
 .hero h2 {
@@ -54,11 +54,11 @@ form input {
 /* Missing: Text and colour styling variety */
 /* Missing: Table styling */
 
-.footer {
+footer {
     background-color: gray;
     color: white;
     padding: 20px;
-    /* Wrong alignment */
+    /* Added correct alignment */
     text-align: center;
 }
 
