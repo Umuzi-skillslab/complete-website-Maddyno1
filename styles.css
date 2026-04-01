@@ -11,7 +11,7 @@ body {
     background-color: #222;
     color: white;
     padding: 20px;
-    /* Missing: proper alignment */
+    text-align: center;/* Missing: proper alignment */
 }
 
 .header h1 {
@@ -59,9 +59,9 @@ form input {
     color: white;
     padding: 20px;
     /* Wrong alignment */
-    text-align: left;
+    text-align: center;
 }
 
 p {
-    font-size: small
+    font-size: small;
 }/* Code quality issues: inconsistent spacing, poor naming, no comments */
