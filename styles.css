@@ -11,7 +11,8 @@ header {
     background-color: #222;
     color: white;
     padding: 15px;
-    text-align: center;/* Added proper alignment */
+    text-align: center;
+    /* Added proper alignment */
 }
 
 header h1 {
@@ -21,11 +22,14 @@ header h1 {
 li {
     list-style: none;
     display: inline
-}/* Navigation styling missing completely */
+}
 
-li a{
+/* Navigation styling*/
+
+li a {
     padding: 5px
 }
+
 .hero {
     padding: 20px;
     background-color: rgb(16, 169, 220);
@@ -70,4 +74,6 @@ footer {
 
 p {
     font-size: small;
-}/* Code quality issues: inconsistent spacing, poor naming, no comments */
+}
+
+/* Code quality issues: inconsistent spacing, poor naming, no comments */
