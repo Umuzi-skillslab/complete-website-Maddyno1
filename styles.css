@@ -62,4 +62,6 @@ form input {
     text-align: left;
 }
 
-/* Code quality issues: inconsistent spacing, poor naming, no comments */
+p {
+    font-size: small
+};/* Code quality issues: inconsistent spacing, poor naming, no comments */
