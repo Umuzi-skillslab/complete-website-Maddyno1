@@ -18,8 +18,14 @@ header h1 {
     margin: 0;
 }
 
-/* Navigation styling missing completely */
+li {
+    list-style: none;
+    display: inline
+}/* Navigation styling missing completely */
 
+li a{
+    padding: 5px
+}
 .hero {
     padding: 20px;
     background-color: rgb(16, 169, 220);
