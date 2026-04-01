@@ -21,10 +21,16 @@ header h1 {
 
 li {
     list-style: none;
-    display: inline
+    display: inline;
 }
 
-/* Navigation styling*/
+a {
+    text-decoration: none;
+}/* Navigation styling*/
+
+li :hover {
+    background-color: aqua;
+}
 
 li a {
     padding: 5px
