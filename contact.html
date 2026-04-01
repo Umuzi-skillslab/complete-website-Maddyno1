@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Contact</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -13,18 +13,29 @@
         <h2>Get In Touch</h2>
         
         <form>
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Email">
-            <textarea placeholder="Message"></textarea>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="Name" id="name" required>
+            </div>
+            <div>
+                <labels for="email">Email</labels>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <labels for="phone">Phone Number</labels>
+                <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" placeholder="0721234567">
+            </div>
+            <div>
+                <labels for="message">Your Message</labels><br>
+                <textarea name="message" id="message" rows="4" maxlength="100">Enter your message here</textarea>
+            </div>
             
-            <!-- Missing: labels, more input types, validation -->
-            
-            <button>Send</button>
+            <button type="submit">Send</button>
         </form>
     </div>
     
     <footer>
-        <p>Contact me at tshidimoshoeshoe26@gmail.com</p>
+        <p>Contact me at matshidiso.moshoeshoe@umuzi.org</p>
     </footer>
 </body>
 </html>
