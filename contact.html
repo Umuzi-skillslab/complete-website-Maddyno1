@@ -26,19 +26,19 @@
             <form>
                 <div>
                     <label for="name">Name</label>
-                    <input type="text" name="Name" id="name" required>
+                    <input type="text" name="Name" id="name" tabindex="1" required placeholder="Jane Doe">
                 </div>
                 <div>
                     <labels for="email">Email</labels>
-                    <input type="email" name="email" id="email" required>
+                    <input type="email" name="email" id="email" tabindex="2" required placeholder="example@123.com">
                 </div>
                 <div>
                     <labels for="phone">Phone Number</labels>
-                    <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" placeholder="0721234567">
+                    <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" tabindex="3" placeholder="0721234567">
                 </div>
                 <div>
                     <labels for="message">Your Message</labels><br>
-                    <textarea name="message" id="message" rows="4" maxlength="100" placeholder="Enter your message here"></textarea>
+                    <textarea name="message" id="message" rows="4" maxlength="100" tabindex="4" placeholder="Enter message..."></textarea>
                 </div>
 
                 <button type="submit">Send</button>
