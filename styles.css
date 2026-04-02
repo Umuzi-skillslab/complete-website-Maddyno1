@@ -24,7 +24,7 @@ header h1 {
 }
 
 .about {
-    background-color: rgb(219, 158, 45);
+    background-color: rgb(220, 115, 30);
 }
 
 .projects {
@@ -50,7 +50,11 @@ a {
 }
 
 li :hover {
-    background-color: aqua;
+    border-bottom: 2px solid purple;
+}
+
+li :active {
+    color: azure;
 }
 
 li a {
@@ -80,7 +84,7 @@ li a {
     padding: 30px;
 }
 
-/* Form styling incomplete */
+/* Form styling  */
 form input {
     display: block;
     margin: 10px 0;
@@ -89,13 +93,13 @@ form input {
 /* Missing: Box model demonstration (margin, padding, border) */
 /* Missing: Block vs inline elements styling */
 /* Missing: Text and colour styling variety */
-/* Missing: Table styling */
 
+
+/* Footer styling */
 footer {
     background-color: gray;
     color: white;
     padding: 20px;
-    /* Added correct alignment */
     text-align: center;
 }
 
