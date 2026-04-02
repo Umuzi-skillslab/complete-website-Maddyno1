@@ -90,6 +90,33 @@ form input {
     margin: 10px 0;
 }
 
+/* Table editing*/
+#heading{
+    background-color: white;
+    border-bottom: none;
+}
+
+table {
+    width: 50%;
+    border-radius: 10px;
+    float: right;
+    padding: 10px;
+    margin-right: 10px;
+}
+th,
+td {
+    padding: 10px 15px;
+    text-align: center;
+    border-bottom: 1px solid rgb(141, 139, 136);
+}
+th {
+    /*width: 10px;*/
+    background-color: rgba(16, 205, 155, 0.822);
+    color: white
+}
+tr {
+    background-color: rgb(222, 218, 211);
+}
 /* Missing: Box model demonstration (margin, padding, border) */
 /* Missing: Block vs inline elements styling */
 /* Missing: Text and colour styling variety */
