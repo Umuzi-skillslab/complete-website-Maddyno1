@@ -7,16 +7,37 @@ body {
     color: #333;
 }
 
+/* Main heading styling */
 header {
-    background-color: #222;
     color: white;
     padding: 15px;
-    text-align: center;
-    /* Added proper alignment */
 }
 
 header h1 {
     margin: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.portfolio {
+    background-color: plum;
+}
+
+.about {
+    background-color: rgb(219, 158, 45);
+}
+
+.projects {
+    background-color: rgb(9, 123, 216);
+}
+
+.contact {
+    background-color: rgb(5, 157, 36);
+}
+/* Navigation styling*/
+
+nav {
+    text-align: right;
 }
 
 li {
@@ -26,7 +47,7 @@ li {
 
 a {
     text-decoration: none;
-}/* Navigation styling*/
+}
 
 li :hover {
     background-color: aqua;
@@ -47,7 +68,7 @@ li a {
 }
 
 .hero img {
-    width: 100%;
+    width: 300;
     /* Missing: alt text handled in HTML, but sizing issues here */
 }
 
