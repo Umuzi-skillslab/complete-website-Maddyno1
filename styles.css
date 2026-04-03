@@ -10,6 +10,10 @@ main {
     margin-bottom: -50px;
 }
 
+p {
+    font-size: small;
+}
+
 /*Home page styling*/
 .hero {
     padding: 20px;
@@ -34,13 +38,13 @@ main {
     margin-right: auto;
 }
 
-#section2{
+#section2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container{
+.container {
     margin: 30px auto;
     width: 75%;
 }
@@ -49,15 +53,15 @@ main {
     padding: 30px;
 }
 
-.intro h2{
+.intro h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h4{
+h4 {
     color: rgb(0, 195, 255);
 }
 
-.contact_link{
+.contact_link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +72,7 @@ h4{
     background-color: rgb(231, 151, 86);
 }
 
-.background{
+.background {
     margin: 20px;
     border-style: solid;
     width: 500px;
@@ -76,10 +80,9 @@ h4{
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
-.background>h2,p{
+.background>h2,p {
     margin: 30px;
 }
-
 
 #aboutimg {
     margin: 40px;
@@ -147,7 +150,7 @@ li a {
 
 /* Project page styling*/
 
-.Projects_main{
+.Projects_main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -222,6 +225,44 @@ form input {
     margin-top: 35px
 } 
 
+input{
+    background-color: rgba(250, 182, 250, 0.94);
+    color: rgba(45, 39, 45, 0.94);
+    border: 2px gray;
+    border-radius: 10px;
+    padding: 5px
+}
+
+input:hover {
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.94);
+}
+
+textarea:hover{
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.94);
+}
+
+input :focus{
+    background-color: rgba(253, 229, 253, 0.94)
+}
+
+textarea :focus{
+    background-color: rgba(253, 229, 253, 0.94)
+}
+
+textarea{
+    background-color: rgba(250, 182, 250, 0.94);
+    color: rgba(45, 39, 45, 0.94);
+    border: 2px gray;
+    border-radius: 10px;
+    padding: 5%;
+    margin: 10px 0;
+}
+
+#button {
+    background-color: rgba(32, 144, 235, 0.94);
+    cursor: pointer;
+}
+
 /* Table editing*/
 #heading {
     background-color: white;
@@ -268,8 +309,4 @@ footer,
 
 footer p{
     margin: 5px;
-}
-
-p {
-    font-size: small;
 }
