@@ -22,27 +22,30 @@
     <main>
         <div>
             <h2>Get In Touch</h2>
+            <div class="contact1">
+                <form>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="Name" id="name" tabindex="1" required>
+                    </div>
+                    <div>
+                        <labels for="email">Email</labels>
+                        <input type="email" name="email" id="email" tabindex="2" required>
+                    </div>
+                    <div>
+                        <labels for="phone">Phone Number</labels>
+                        <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" tabindex="3"
+                            placeholder="0721234567">
+                    </div>
+                    <div>
+                        <labels for="message">Your Message</labels><br>
+                        <textarea name="message" id="message" rows="4" maxlength="100" tabindex="4"
+                            placeholder="Enter message..."></textarea>
+                    </div>
 
-            <form>
-                <div>
-                    <label for="name">Name</label>
-                    <input type="text" name="Name" id="name" tabindex="1" required placeholder="Jane Doe">
-                </div>
-                <div>
-                    <labels for="email">Email</labels>
-                    <input type="email" name="email" id="email" tabindex="2" required placeholder="example@123.com">
-                </div>
-                <div>
-                    <labels for="phone">Phone Number</labels>
-                    <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" tabindex="3" placeholder="0721234567">
-                </div>
-                <div>
-                    <labels for="message">Your Message</labels><br>
-                    <textarea name="message" id="message" rows="4" maxlength="100" tabindex="4" placeholder="Enter message..."></textarea>
-                </div>
-
-                <button type="submit">Send</button>
-            </form>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
         </div>
         <div class="push"></div>
     </main>
