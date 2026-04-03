@@ -101,22 +101,22 @@ header h1 {
     text-align: left;
     padding-top: 20px;
     padding-left: 20px;
-    font-family: soft serif;
+    font-family: serif;
 }
 
-.portfolio {
+#Wportfolio {
     background-color: plum;
 }
 
-.about {
+#Wabout {
     background-color: rgb(218, 127, 53);
 }
 
-.projects {
+#Wprojects {
     background-color: rgb(42, 140, 220);
 }
 
-.contact {
+#Wcontact {
     background-color: rgb(45, 161, 68);
 }
 
@@ -200,7 +200,6 @@ form {
     justify-content: center;
     align-items: center;
     font-size: small;
-    border-style: solid 2px;
     border-radius: 30px;
     background-color: aliceblue;
     width: 500px;
