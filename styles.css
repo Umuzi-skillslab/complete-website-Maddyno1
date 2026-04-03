@@ -74,6 +74,11 @@ h4{
     width: 500px;
 }
 
+.background>h2,p{
+    margin: 30px
+}
+
+
 #aboutimg {
     margin: 20px;
 }

@@ -11,7 +11,7 @@ In the CSS file, the header and footer class selectors were missing proper align
 
 ## Fixes Implemented
 
-I fixed the issues by first linking the correct CSS file to the page. I used <header>, <nav>, <main>, <section> and <footer> tags, instead of ‘div class’, to allow for structure and accessibility. I added a navigation menu, renamed the footer and header tags and added a table. I corrected the form structure and I added images, as well as descriptive alt text to those images.
+I fixed the issues by first linking the correct CSS file to the page. I used header, nav, main, section and footer tags, instead of ‘div class’, to allow for structure and accessibility. I added a navigation menu, renamed the footer and header tags and added a table. I corrected the form structure and I added images, as well as descriptive alt text to those images.
 
 For the CSS file, I added proper alignment to the header and footer class selector. I styled the navigation menu, the form and the table. I added colour to different elements of the page, and added more selector, pseudo classes and combination selectors. I added bow model properties, CSS comments, and formatted the document for proper spacing. I rectified the sizing of different elements.
 
