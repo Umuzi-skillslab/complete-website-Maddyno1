@@ -38,16 +38,26 @@ I used a variety of different selectors, including the descendant selector and c
 2.	Locate them in your file manager and right-click one of the HTML files.
 3.	Select “Open with” to choose a web browser.
 
-● Screenshots of: ● All four pages of your completed website 
+● Screenshots of: 
+1. All four pages of completed website
+![Page 1](Images/s_page1.png)
+![Page 2](Images/s_page2.png)
+![Page 3](Images/s_page3.png) 
+![Page 3](Images/s_page4.png)
 
-                             ● Your HTML form (showing improvements) 
+2. HTML form  
+![HTML Form](Images/s_form.png)
 
-                             ● Your styled table 
+3. Styled table
+![Styled table](Images/s_table.png) 
 
-                             ● Navigation menu with hover states
+4. Navigation menu with hover states
+![Navigation Menu](Images/s_navigation.png)
  
-                             ● Before/After comparison of at least one page (optional but recommended) 
-
+5. Before/After comparison of at least one page
+![Before of Home](Images/s_before.png) 
+![After 1](Images/s_after1.png)
+![After 2](Images/s_after2.png)
 
 ## Challenges 
 
