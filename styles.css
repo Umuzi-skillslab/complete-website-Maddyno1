@@ -7,7 +7,7 @@ body {
 
 main {
     min-height: 100vh;
-    margin-bottom: -30px;
+    margin-bottom: -50px;
 }
 
 .hero {
@@ -17,6 +17,7 @@ main {
 
 .hero h2 {
     font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     margin: 15px
 }
@@ -32,8 +33,33 @@ main {
     margin-right: auto;
 }
 
+#section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin: 30px auto;
+    width: 75%;
+}
+
 .intro {
-    display: block
+    padding: 30px;
+}
+
+.intro h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4{
+    color: rgb(0, 195, 255);
+}
+
+.contact_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Header styling */
@@ -95,12 +121,6 @@ li a {
     padding: 5px
 }
 
-/* Missing: Only using 2-3 selector types, need 5+ */
-
-.intro {
-    padding: 30px;
-}
-
 /* Form styling  */
 #contact {
     background-color: #79ceff;
@@ -153,11 +173,6 @@ tr {
     background-color: rgb(222, 218, 211);
 }
 
-/* Missing: Box model demonstration (margin, padding, border) */
-/* Missing: Block vs inline elements styling */
-/* Missing: Text and colour styling variety */
-
-
 /* Footer styling */
 footer {
     background-color: gray;
@@ -168,11 +183,13 @@ footer {
 
 footer,
 .push {
-    height: 30px;
+    height: 50px;
+}
+
+footer p{
+    margin: 5px;
 }
 
 p {
     font-size: small;
 }
-
-/* Code quality issues: inconsistent spacing, poor naming, no comments */
