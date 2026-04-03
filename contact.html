@@ -1,30 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
     <title>Contact</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="header">
+
+<body id="contact">
+    <header id="Wcontact">
         <h1>Contact Me</h1>
-    </div>
-    
-    <div>
-        <h2>Get In Touch</h2>
-        
-        <form>
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Email">
-            <textarea placeholder="Message"></textarea>
-            
-            <!-- Missing: labels, more input types, validation -->
-            
-            <button>Send</button>
-        </form>
-    </div>
-    
-    <div class="footer">
-        <p>Contact me at email@example.com</p>
-    </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <div class="contacthead"><h1>Get In Touch</h1></div>
+            <div class="contact1">
+                <form>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="Name" id="name" tabindex="1" required>
+                    </div>
+                    <div>
+                        <labels for="email">Email</labels>
+                        <input type="email" name="email" id="email" tabindex="2" required>
+                    </div>
+                    <div>
+                        <labels for="phone">Phone Number</labels>
+                        <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" tabindex="3"
+                            placeholder="0721234567">
+                    </div>
+                    <div>
+                        <labels for="message">Your Message</labels><br>
+                        <textarea name="message" id="message" rows="4" maxlength="100" tabindex="4"
+                            placeholder="Enter message..."></textarea>
+                    </div>
+                    <div>
+                        <labels for="Book">Looking to book services</labels>
+                        <input type="checkbox" name="checkbox" id="Book" >
+                    </div>
+                    
+                    <button id="button" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="push"></div>
+    </main>
+
+    <footer>
+        <p>Email me at matshidiso.moshoeshoe@umuzi.org</p>
+        <p>&copy;2026</p>
+    </footer>
 </body>
+
 </html>

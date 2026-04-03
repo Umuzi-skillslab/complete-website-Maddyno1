@@ -1,0 +1,320 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    color: #202020;
+}
+
+main {
+    min-height: 100vh;
+    margin-bottom: -50px;
+}
+
+p {
+    font-size: small;
+}
+
+/*Home page styling*/
+.hero {
+    padding: 20px;
+    background-color: rgb(16, 169, 220);
+}
+
+.hero h2 {
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 15px
+}
+
+.hero>p {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.hero>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 30px auto;
+    width: 75%;
+}
+
+.intro {
+    padding: 30px;
+}
+
+.intro h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4 {
+    color: rgb(0, 195, 255);
+}
+
+.contact_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* About page styling*/
+#aboutme {
+    background-color: rgb(231, 151, 86);
+}
+
+.background {
+    margin: 20px;
+    border-style: solid;
+    width: 500px;
+    color: #4a4646;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.background>h2,p {
+    margin: 30px;
+}
+
+#aboutimg {
+    margin: 40px;
+    border-radius: 30px;
+}
+
+/* Header styling */
+header {
+    color: #202020;
+    padding: 15px;
+}
+
+header h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: serif;
+}
+
+#Wportfolio {
+    background-color: plum;
+}
+
+#Wabout {
+    background-color: rgb(218, 127, 53);
+}
+
+#Wprojects {
+    background-color: rgb(42, 140, 220);
+}
+
+#Wcontact {
+    background-color: rgb(45, 161, 68);
+}
+
+/* Navigation styling*/
+nav {
+    text-align: right;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+li :hover {
+    border-bottom: 2px solid purple;
+}
+
+li :active {
+    color: azure;
+}
+
+li a {
+    font-weight: bold;
+    margin-right: 100px;
+    padding: 5px
+}
+
+/* Project page styling*/
+
+.Projects_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project1img,
+.project2img,
+.project3img {
+    width: 400px;
+    border-style: outset;
+    margin: 20px;
+    background-color: #e5edee;
+    box-shadow: 0 5px 8px rgba(98, 51, 51, 0.8);
+}
+
+.project1img > img,
+.project2img > img,
+.project3img > img { 
+    padding: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    margin-top: 30px;
+    margin-left: 30px;
+    
+} 
+
+.project1,
+.project2,
+.project3 {
+    display: flex;
+}
+
+#myprojects {
+    background-color: #79ceff;
+}
+
+/* Form styling  */
+#contact {
+    background-color: #79ceff;
+    background-image: linear-gradient(315deg,
+            #79ceff 0%,
+            #dcb5ff 67%,
+            #ffb8f0 100%);
+}
+
+form {
+    height: 50vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    border-radius: 30px;
+    background-color: aliceblue;
+    width: 500px;
+    padding: 30px;
+    margin-top: 50px
+}
+
+.contact1 {
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    display: block;
+    margin: 10px 0;
+}
+
+.contacthead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px
+} 
+
+input{
+    background-color: rgba(250, 182, 250, 0.94);
+    color: rgba(45, 39, 45, 0.94);
+    border: 2px gray;
+    border-radius: 10px;
+    padding: 5px
+}
+
+input:hover {
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.94);
+}
+
+textarea:hover{
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.94);
+}
+
+input :focus{
+    background-color: rgba(253, 229, 253, 0.94)
+}
+
+textarea :focus{
+    background-color: rgba(253, 229, 253, 0.94)
+}
+
+textarea{
+    background-color: rgba(250, 182, 250, 0.94);
+    color: rgba(45, 39, 45, 0.94);
+    border: 2px gray;
+    border-radius: 10px;
+    padding: 5%;
+    margin: 10px 0;
+}
+
+#button {
+    background-color: rgba(32, 144, 235, 0.94);
+    cursor: pointer;
+}
+
+/* Table editing*/
+#heading {
+    background-color: white;
+    border-bottom: none;
+}
+
+table {
+    width: 50%;
+    border-radius: 0px;
+    float: right;
+    padding: 0px;
+    margin-right: 30px;
+    border-style: outset;
+}
+
+th,
+td {
+    padding: 10px 15px;
+    text-align: center;
+    border-bottom: 1px solid rgb(141, 139, 136);
+}
+
+th {
+    background-color: rgba(16, 205, 155, 0.822);
+    color: white
+}
+
+tr {
+    background-color: rgb(222, 218, 211);
+    
+}
+
+tr:nth-child(even) {
+  background-color: rgb(222, 218, 211);
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(242, 221, 105);
+}
+
+/* Footer styling */
+footer {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer,
+.push {
+    height: 50px;
+}
+
+footer p{
+    margin: 5px;
+}
