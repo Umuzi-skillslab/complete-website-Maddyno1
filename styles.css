@@ -72,15 +72,18 @@ h4{
     margin: 20px;
     border-style: solid;
     width: 500px;
+    color: #4a4646;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 .background>h2,p{
-    margin: 30px
+    margin: 30px;
 }
 
 
 #aboutimg {
-    margin: 20px;
+    margin: 40px;
+    border-radius: 30px;
 }
 
 /* Header styling */
@@ -155,18 +158,28 @@ li a {
     width: 400px;
     border-style: outset;
     margin: 20px;
-} 
+    background-color: #e5edee;
+    box-shadow: 0 5px 8px rgba(98, 51, 51, 0.8);
+}
 
-.project1img,
-.project2img,
+.project1img > img,
+.project2img > img,
 .project3img > img { 
     padding: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    margin-top: 30px;
+    margin-left: 30px;
+    
 } 
 
 .project1,
 .project2,
 .project3 {
     display: flex;
+}
+
+#myprojects {
+    background-color: #79ceff;
 }
 
 /* Form styling  */
@@ -189,7 +202,7 @@ form {
     background-color: aliceblue;
     width: 500px;
     padding: 30px;
-    /*margin-right: 70px;*/
+    margin-top: 50px
 }
 
 .contact1 {
@@ -206,7 +219,8 @@ form input {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    margin-top: 35px
+} 
 
 /* Table editing*/
 #heading {
@@ -216,10 +230,11 @@ form input {
 
 table {
     width: 50%;
-    border-radius: 10px;
+    border-radius: 0px;
     float: right;
-    padding: 10px;
-    margin-right: 10px;
+    padding: 0px;
+    margin-right: 30px;
+    border-style: outset;
 }
 
 th,
