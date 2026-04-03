@@ -142,7 +142,7 @@ li a {
 .Projects_main{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 }
 .project1img,
 .project2img,
@@ -184,17 +184,23 @@ form {
     background-color: aliceblue;
     width: 500px;
     padding: 30px;
-    margin-right: 70px;
+    /*margin-right: 70px;*/
 }
 
 .contact1 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 form input {
     display: block;
     margin: 10px 0;
+}
+
+.contacthead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Table editing*/
