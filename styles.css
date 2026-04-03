@@ -10,6 +10,7 @@ main {
     margin-bottom: -50px;
 }
 
+/*Home page styling*/
 .hero {
     padding: 20px;
     background-color: rgb(16, 169, 220);
@@ -60,6 +61,21 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* About page styling*/
+#aboutme {
+    background-color: rgb(231, 151, 86);
+}
+
+.background{
+    margin: 20px;
+    border-style: solid;
+    width: 500px;
+}
+
+#aboutimg {
+    margin: 20px;
 }
 
 /* Header styling */
@@ -121,6 +137,33 @@ li a {
     padding: 5px
 }
 
+/* Project page styling*/
+
+.Projects_main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.project1img,
+.project2img,
+.project3img {
+    width: 400px;
+    border-style: outset;
+    margin: 20px;
+} 
+
+.project1img,
+.project2img,
+.project3img > img { 
+    padding: 15px;
+} 
+
+.project1,
+.project2,
+.project3 {
+    display: flex;
+}
+
 /* Form styling  */
 #contact {
     background-color: #79ceff;
@@ -136,6 +179,17 @@ form {
     justify-content: center;
     align-items: center;
     font-size: small;
+    border-style: solid 2px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    width: 500px;
+    padding: 30px;
+    margin-right: 70px;
+}
+
+.contact1 {
+    display: flex;
+    justify-content: flex-end;
 }
 
 form input {
