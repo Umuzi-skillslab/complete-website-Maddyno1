@@ -40,24 +40,24 @@ I used a variety of different selectors, including the descendant selector and c
 
 ● Screenshots of: 
 1. All four pages of completed website
-![Page 1](Images/s_page1.png)
-![Page 2](Images/s_page2.png)
-![Page 3](Images/s_page3.png) 
-![Page 3](Images/s_page4.png)
+![Page 1](screenshots/homepage.png)
+![Page 2](screenshots/aboutpage.png)
+![Page 3](screenshots/projectspage.png) 
+![Page 3](screenshots/contactpage.png)
 
 2. HTML form  
-![HTML Form](Images/s_form.png)
+![HTML Form](screenshots/form.png)
 
 3. Styled table
-![Styled table](Images/s_table.png) 
+![Styled table](screenshots/table.png) 
 
 4. Navigation menu with hover states
-![Navigation Menu](Images/s_navigation.png)
+![Navigation Menu](screenshots/navigation.png)
  
 5. Before/After comparison of at least one page
-![Before of Home](Images/s_before.png) 
-![After 1](Images/s_after1.png)
-![After 2](Images/s_after2.png)
+![Before of Home](screenshots/before.png) 
+![After 1](screenshots/after1.png)
+![After 2](screenshots/after2.png)
 
 ## Challenges 
 

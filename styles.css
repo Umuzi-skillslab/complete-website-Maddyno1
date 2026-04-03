@@ -2,7 +2,7 @@ body {
     font-family: Arial;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #202020;
 }
 
 main {
@@ -91,7 +91,7 @@ h4 {
 
 /* Header styling */
 header {
-    color: white;
+    color: #202020;
     padding: 15px;
 }
 
