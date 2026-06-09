@@ -30,30 +30,44 @@
             </div>
             <div class="contact1">
                 <form>
-                    <div>
+                    <fieldset>
+                        <legend>Contact information</legend>
+
+
                         <label for="name">Name</label>
                         <input type="text" name="Name" id="name" tabindex="1" required>
-                    </div>
-                    <div>
+
+
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" tabindex="2" required>
-                    </div>
-                    <div>
+
+
                         <label for="phone">Phone Number</label>
                         <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" tabindex="3"
-                            placeholder="0721234567">
-                    </div>
-                    <div>
+                            placeholder="0721234567" required>
+
+
                         <label for="message">Your Message</label><br>
                         <textarea name="message" id="message" rows="4" maxlength="100" tabindex="4"
-                            placeholder="Enter message..."></textarea>
-                    </div>
-                    <div>
+                            placeholder="Enter message..."></textarea><br>
+
+
+                        <label for="hear about us">How did you hear about us</label><br>
+                        <select name="hear about us" id="hear about us">
+                            <option value="Facebook">Facebook</option>
+                            <option value="Instagram">Instagram</option>
+                            <option value="Youtube">Youtube</option>
+                            <option value="From a friend">From a friend</option>
+                            <option value="Google search">Google search</option>
+                            <option value="Other">Other</option>
+                        </select><br>
+
                         <label for="Book">Looking to book services</label>
                         <input type="checkbox" name="checkbox" id="Book">
-                    </div>
 
-                    <button id="button" type="submit">Send</button>
+
+                        <button id="button" type="submit">Send</button>
+                    </fieldset>
                 </form>
             </div>
         </div>
