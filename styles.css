@@ -14,6 +14,16 @@ p {
     font-size: small;
 }
 
+/* Keyboard focus styles */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 3px solid #005fcc;
+  outline-offset: 2px;
+}
+
 /*Home page styling*/
 .hero {
     padding: 20px;
@@ -133,11 +143,11 @@ a {
     text-decoration: none;
 }
 
-li :hover {
+li a:hover {
     border-bottom: 2px solid purple;
 }
 
-li :active {
+li a:active {
     color: azure;
 }
 
@@ -145,6 +155,11 @@ li a {
     font-weight: bold;
     margin-right: 100px;
     padding: 5px
+}
+
+a[aria-current="page"] {
+  font-weight: bold;
+  border-bottom: 2px solid purple;
 }
 
 /* Project page styling*/
