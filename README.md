@@ -58,10 +58,10 @@ I used a variety of different selectors, including the descendant selector and c
 
 ● Screenshots of: 
 1. All four pages of completed website
-![Page 1](screenshots/homepage.png)
-![Page 2](screenshots/aboutpage.png)
+![Page 1](screenshots/home-page.png)
+![Page 2](screenshots/about-page.png)
 ![Page 3](screenshots/projectspage.png) 
-![Page 3](screenshots/contactpage.png)
+![Page 3](screenshots/contact-page.png)
 
 2. HTML form  
 ![HTML Form](screenshots/form.png)
@@ -74,8 +74,8 @@ I used a variety of different selectors, including the descendant selector and c
  
 5. Before/After comparison of at least one page
 ![Before of Home](screenshots/before.png) 
-![After 1](screenshots/after1.png)
-![After 2](screenshots/after2.png)
+![After 1](screenshots/after-1.png)
+![After 2](screenshots/after-2.png)
 
 ## Challenges 
 
