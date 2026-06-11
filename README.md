@@ -4,16 +4,34 @@ This is a portfolio website which serves as a template for a local creative agen
 
 ## Issues Found 
 
-Some of the major issues include a lack of semantic tags, no accessibility features, improperly structured form and table. There were no images on the file, and the links used for the images had no descriptive alt text. There was no navigation menu, and the pages did not feature a proper footer. The correct CSS file was also not linked in the head element. I added a table to the ‘about’ page
+1. Some of the major issues include a lack of semantic tags, no accessibility features, improperly structured form and table. 
+2. There were no images on the file, and the links used for the images had no descriptive alt text. 
+3. There was no navigation menu, and the pages did not feature a proper footer. 
+4. The correct CSS file (css/styles.css) was also not linked in the head element. 
+5. I added a table to the ‘about’ page
 
-In the CSS file, the header and footer class selectors were missing proper alignment. The navigation menus, the form and table had no styling. There was poor colour contrasting for the hero class. The hero image width was set to 100%. There was a lack of selectors. There was no box model demonstration. There was inconsistent spacing in the code. There were no CSS comments or a variety in text and colour styling.
+6. In the CSS file, the header and footer class selectors were missing proper alignment. 
+7. The navigation menus, the form and table had no styling. 
+8. There was poor colour contrasting for the hero class. 
+9. The hero image width was set to 100%. 
+10. There was a lack of selectors. 
+11. There was no box model demonstration. 
+12. There was inconsistent spacing in the code. 
+13. There were no CSS comments or a variety in text and colour styling.
 
 
 ## Fixes Implemented
 
-I fixed the issues by first linking the correct CSS file to the page. I used header, nav, main, section and footer tags, instead of ‘div class’, to allow for structure and accessibility. I added a navigation menu, renamed the footer and header tags and added a table. I corrected the form structure and I added images, as well as descriptive alt text to those images.
+1. I fixed the issues by first linking the correct CSS file to the page. 
+2. I used header, nav, main, section and footer tags, instead of ‘div class’, to allow for structure and accessibility. 
+3. I added a navigation menu, renamed the footer and header tags and added a table. 
+4. I corrected the form structure and I added images, as well as descriptive alt text to those images.
 
-For the CSS file, I added proper alignment to the header and footer class selector. I styled the navigation menu, the form and the table. I added colour to different elements of the page, and added more selector, pseudo classes and combination selectors. I added bow model properties, CSS comments, and formatted the document for proper spacing. I rectified the sizing of different elements.
+5. For the CSS file, I added proper alignment to the header and footer class selector. 
+6. I styled the navigation menu, the form and the table. 
+7. I added colour to different elements of the page, and added more selector, pseudo classes and combination selectors. 
+8. I added bow model properties, CSS comments, and formatted the document for proper spacing. 
+9. I rectified the sizing of different elements.
 
 
 ## HTML structure and semantic choices 

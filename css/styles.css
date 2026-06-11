@@ -28,7 +28,7 @@ select:focus {
 /*Home page styling*/
 .hero {
     padding: 20px;
-    background-color: rgb(16, 169, 220);
+    background-color: plum;
 }
 
 .hero h2 {
@@ -63,15 +63,15 @@ select:focus {
     padding: 30px;
 }
 
-.contact_link {
+.contact-link {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /* About page styling*/
-#aboutme {
-    background-color: rgb(231, 151, 86);
+#about-me {
+    background-color: #79ceff;
 }
 
 .background {
@@ -93,6 +93,7 @@ select:focus {
 /* Header styling */
 header {
     color: #202020;
+    background-color: rgb(42, 140, 220);
     padding: 15px;
 }
 
@@ -102,22 +103,6 @@ header h1 {
     text-align: left;
     padding-top: 20px;
     padding-left: 20px;
-}
-
-#Wportfolio {
-    background-color: plum;
-}
-
-#Wabout {
-    background-color: rgb(218, 127, 53);
-}
-
-#Wprojects {
-    background-color: rgb(42, 140, 220);
-}
-
-#Wcontact {
-    background-color: rgb(45, 161, 68);
 }
 
 /* Navigation styling*/
@@ -155,7 +140,7 @@ a[aria-current="page"] {
 
 /* Project page styling*/
 
-.Projects_main {
+.projects-main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -186,7 +171,7 @@ a[aria-current="page"] {
     display: flex;
 }
 
-#myprojects {
+#my-projects {
     background-color: #79ceff;
 }
 
@@ -236,13 +221,6 @@ form input {
     display: block;
     margin: 10px 0;
 }
-
-.contacthead {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 35px
-} 
 
 input{
     background-color: rgba(250, 182, 250, 0.94);
