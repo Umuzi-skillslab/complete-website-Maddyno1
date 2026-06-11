@@ -1,30 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Projects</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="My portfolio website" />
+    <meta name="og:title" content="My Projects" />
+    <meta name="og:description" content="An incite into my programming journey" />
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <div class="header">
+
+<body id="my-projects">
+    <header>
         <h1>My Projects</h1>
-    </div>
-    
-    <div>
-        <h2>Project 1</h2>
-        <img src="images/project1.jpg">
-        <p>A responsive website built with HTML and CSS.</p>
-    </div>
-    
-    <div>
-        <h2>Project 2</h2>
-        <img src="images/project2.jpg">
-        <p>An e-commerce site with modern design.</p>
-    </div>
-    
-    <!-- Third project missing -->
-    
-    <div class="footer">
-        <p>Contact me at email@example.com</p>
-    </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" aria-current="page">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects-main">
+            <article class="project1">
+                <h2>Project 1</h2>
+                
+                <figure class="project1img">
+                    <img src="./Images/project1.png" width="300" id="pimg1"
+                        alt="Illustrative example of a responsive website built with HTML and CSS">
+                    <figcaption>A responsive website built with HTML and CSS.</figcaption>
+                </figure>
+            </article>
+
+            <article class="project2">
+                <h2>Project 2</h2>
+                
+                <figure class="project2img">
+                    <img src="./Images/project2.webp" width="300" id="pimg2"
+                        alt="An illustrative example of an e-commerce website with modern design">
+                    <figcaption>An e-commerce site with modern design.</figcaption>
+                </figure>
+            </article>
+
+            <article class="project3">
+                <h2>Project 3</h2>
+                
+                <figure class="project3img">
+                    <img src="./Images/project3.webp" width="300" id="pimg3" alt="An illustrative example of a portfolio website">
+                    <figcaption>A portfolio website.</figcaption>
+                </figure>
+            </article>
+        </section>
+        <div class="push"></div>
+    </main>
+
+    <footer>
+        <p>Email me at matshidiso.moshoeshoe@umuzi.org</p>
+        <p>&copy;2026 </p>
+    </footer>
 </body>
+
 </html>
