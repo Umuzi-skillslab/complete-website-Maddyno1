@@ -191,6 +191,11 @@ a[aria-current="page"] {
     background-color: #79ceff;
 }
 
+figcaption {
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
 /* Form styling  */
 
 fieldset {
