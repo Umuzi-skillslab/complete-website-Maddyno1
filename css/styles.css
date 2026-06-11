@@ -77,7 +77,7 @@ select:focus {
 .background {
     margin: 20px;
     border-style: solid;
-    width: 500px;
+    max-width: 500px;
     color: #4a4646;
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
@@ -102,7 +102,6 @@ header h1 {
     text-align: left;
     padding-top: 20px;
     padding-left: 20px;
-    font-family: serif;
 }
 
 #Wportfolio {
@@ -210,12 +209,17 @@ fieldset {
             #ffb8f0 100%);
 }
 
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
 form {
     height: 50vh;
     display: grid;
     justify-content: center;
     align-items: center;
-    font-size: small;
     border-radius: 30px;
     background-color: aliceblue;
     width: 500px;
@@ -280,11 +284,6 @@ textarea{
 }
 
 /* Table editing*/
-#heading {
-    background-color: white;
-    border-bottom: none;
-}
-
 table {
     width: 50%;
     border-radius: 0px;
